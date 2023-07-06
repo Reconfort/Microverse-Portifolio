@@ -1,13 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 body {
   background-color: #f4f5f7;
 }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
 a {
   text-decoration: none;
   color: inherit;
@@ -22,18 +25,19 @@ header {
   justify-content: space-between;
   background-color: white;
 }
+
 header span {
-  width: Hug (100px);
-  height: Hug (40px);
+  width: hug(100px);
+  height: hug(40px);
   top: 16px;
   left: 143px;
   padding: 10px 12px 10px 12px;
 }
+
 header span h2 {
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
-  letter-spacing: 0em;
   text-align: center;
   color: #6070ff;
 }
@@ -47,19 +51,21 @@ header ul {
   left: 1039px;
   gap: 8px;
 }
+
 header ul li {
-  width: Hug (86px);
-  height: Hug (40px);
+  width: hug(86px);
+  height: hug(40px);
   padding: 10px 12px 10px 12px;
   gap: 10px;
 }
+
 header ul li a {
   font-size: 15px;
   font-weight: 500;
   line-height: 20px;
-  letter-spacing: 0em;
   text-align: center;
 }
+
 header .burger {
   display: none;
 }
@@ -74,15 +80,17 @@ header .burger {
   padding: 289px 260px 289px 260px;
   border-bottom-left-radius: 150px;
 }
+
 .container .wrapper {
-  width: Hug (920px);
-  height: Hug (268px);
+  width: hug(920px);
+  height: hug(268px);
   top: 289px;
   left: 260px;
   display: flex;
   flex-direction: column;
   gap: 12px;
 }
+
 .container .wrapper h1 {
   font-size: 48px;
   font-weight: 700;
@@ -91,23 +99,24 @@ header .burger {
   text-align: left;
   color: #091e42;
 }
+
 .container .wrapper p {
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
-  letter-spacing: 0em;
   text-align: left;
   color: #344563;
 }
+
 .container .wrapper h2 {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0em;
   text-align: left;
   color: #6070ff;
   text-transform: uppercase;
 }
+
 .container .wrapper ul {
   display: flex;
   list-style: none;
@@ -118,6 +127,7 @@ header .burger {
   justify-content: space-between;
   align-items: center;
 }
+
 .container .wrapper ul a {
   width: 19.985925674438477px;
   height: 19.962478637695312px;
@@ -132,40 +142,45 @@ header .burger {
     top: 44px;
     padding: 4px 24px 4px 12px;
   }
+
   .header span {
-    width: Hug (100px);
-    height: Hug (40px);
+    width: hug(100px);
+    height: hug(40px);
     top: 4px;
     left: 12px;
     padding: 10px 12px 10px 12px;
   }
+
   .header span h2 {
     font-size: 18px;
     font-weight: 700;
     line-height: 20px;
-    letter-spacing: 0em;
     text-align: center;
   }
+
   header ul {
     display: none;
   }
+
   header .burger {
     display: block;
-    width: Hug (40px);
-    height: Hug (40px);
+    width: hug(40px);
+    height: hug(40px);
     top: 4px;
     left: 311px;
     padding: 8px;
     border-radius: 8px;
   }
+
   header ul .burger img {
     width: 24px;
     height: 24px;
     padding: 6px 2.999884605407715px 6px 3.000115394592285px;
   }
+
   .container {
-    width: Hug (375px);
-    height: Hug (604px);
+    width: hug(375px);
+    height: hug(604px);
     top: 92px;
     padding: 114px 24px 114px 24px;
     gap: 12px;
