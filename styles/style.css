@@ -152,8 +152,8 @@ ul.social-links img {
 }
 
 .works {
-  width: Hug (375px);
-  height: Hug (2, 788px);
+  width: hug (375px);
+  height: hug (2, 788px);
   top: 718px;
   padding: 114px 24px 114px 24px;
   display: flex;
@@ -196,7 +196,6 @@ ul.social-links img {
   height: 36px;
   color: #172b4d;
   font-size: 32px;
-  font-family: Poppins;
   font-weight: 700;
   line-height: 44px;
   word-wrap: break-word;
@@ -213,7 +212,6 @@ ul.social-links img {
   padding: 8px;
   color: #344563;
   font-size: 13px;
-  font-family: Poppins;
   font-weight: 600;
   line-height: 16px;
   word-wrap: break-word;
@@ -224,7 +222,6 @@ ul.social-links img {
   height: 76px;
   color: #344563;
   font-size: 15px;
-  font-family: Poppins;
   font-weight: 400;
   line-height: 24px;
   word-wrap: break-word;
@@ -247,7 +244,6 @@ ul.social-links img {
   display: flex;
   color: #6070ff;
   font-size: 12px;
-  font-family: Poppins;
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.36px;
@@ -275,7 +271,6 @@ ul.social-links img {
   text-align: center;
   color: #396df2;
   font-size: 17px;
-  font-family: Poppins;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.51px;
@@ -283,8 +278,8 @@ ul.social-links img {
 }
 
 .about {
-  width: Hug (375px);
-  height: Hug (2, 788px);
+  width: hug (375px);
+  height: hug (2, 788px);
   top: 718px;
   padding: 114px 24px 114px 24px;
   display: flex;
@@ -294,8 +289,8 @@ ul.social-links img {
   border-top-right-radius: 100px;
 }
 .aboutContent {
-  width: Hug (327px);
-  height: Hug (346px);
+  width: hug (327px);
+  height: hug (346px);
   gap: 12px;
   display: flex;
   flex-direction: column;
@@ -330,8 +325,8 @@ ul.social-links img {
   display: flex;
 }
 .aboutContent ul li {
-  width: Hug (40px);
-  height: Hug (40px);
+  width: hug (40px);
+  height: hug (40px);
   padding: 8px;
   border-radius: 8px;
 }
@@ -343,7 +338,7 @@ ul.social-links img {
 
 .project-button {
   width: 50%;
-  height: Hug (48px);
+  height: hug (48px);
   padding: 12px;
   border-radius: 8px;
   border: 0.5px #6070ff solid;
@@ -369,15 +364,14 @@ ul.social-links img {
 .languages .langTitle h1 {
   color: black;
   font-size: 20px;
-  font-family: Poppins;
   font-weight: 500;
   line-height: 24px;
   word-wrap: break-word;
 }
 
 .languages .langTitle .icon {
-  width: Hug (40px);
-  height: Hug (40px);
+  width: hug (40px);
+  height: hug (40px);
   top: 16px;
   left: 261px;
   padding: 8px;
@@ -389,7 +383,7 @@ ul.social-links img {
 }
 .langContainer {
   width: 100%;
-  height: Hug (248.15px);
+  height: hug (248.15px);
   display: flex;
   flex-direction: column;
   padding: 12px;
@@ -407,7 +401,6 @@ ul.social-links img {
 .langCard p {
   color: #253858;
   font-size: 15px;
-  font-family: Poppins;
   font-weight: 500;
   line-height: 20px;
   word-wrap: break-word;
