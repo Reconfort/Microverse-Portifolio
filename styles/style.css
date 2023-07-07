@@ -80,6 +80,7 @@ header .burger {
   padding: 289px 260px 289px 260px;
   border-bottom-left-radius: 150px;
 }
+
 .container section {
   display: flex;
   flex-direction: column;
