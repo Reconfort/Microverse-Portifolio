@@ -70,8 +70,8 @@ header .burger {
   display: none;
 }
 
-.container {
-  background-image: url(./media/background.png);
+.containerBg {
+  background-image: url(../media/background.png);
   background-color: white;
   background-size: cover;
   width: 100%;
@@ -81,13 +81,13 @@ header .burger {
   border-bottom-left-radius: 150px;
 }
 
-.container section {
+.containerBg section {
   display: flex;
   flex-direction: column;
   gap: 12;
 }
 
-.container .wrapper {
+.containerBg .wrapper {
   width: hug(920px);
   height: hug(268px);
   top: 289px;
@@ -97,13 +97,52 @@ header .burger {
   gap: 12px;
 }
 
-.container .wrapper h1 {
+.aboutContent h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: left;
+  color: #172b4d;
+}
+
+.aboutContent p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #344563;
+}
+
+.aboutContent ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutContent h2 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #7f8cff;
+  text-transform: uppercase;
+}
+
+.containerBg .wrapper h1 {
   font-size: 48px;
   font-weight: 700;
   line-height: 60px;
   letter-spacing: 0.3700000047683716px;
   text-align: left;
   color: #091e42;
+}
+
+.langCard p {
+  color: #253858;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  word-wrap: break-word;
 }
 
 .container .wrapper p {
@@ -114,7 +153,7 @@ header .burger {
   color: #344563;
 }
 
-.container .wrapper h2 {
+.containerBg .wrapper h2 {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -123,7 +162,7 @@ header .burger {
   text-transform: uppercase;
 }
 
-.container .wrapper ul {
+.containerbG .wrapper ul {
   display: flex;
   list-style: none;
   width: 170.1666717529297px;
@@ -288,6 +327,7 @@ ul.social-links img {
   background-color: white;
   border-top-right-radius: 100px;
 }
+
 .aboutContent {
   width: hug (327px);
   height: hug (346px);
@@ -295,41 +335,14 @@ ul.social-links img {
   display: flex;
   flex-direction: column;
 }
-.aboutContent h1 {
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 52px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #172b4d;
-}
-.aboutContent p {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #344563;
-}
-.aboutContent h2 {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #7f8cff;
-  text-transform: uppercase;
-}
-.aboutContent ul {
-  list-style: none;
-  display: flex;
-}
+
 .aboutContent ul li {
   width: hug (40px);
   height: hug (40px);
   padding: 8px;
   border-radius: 8px;
 }
+
 .aboutContent ul li img {
   width: 24px;
   height: 24px;
@@ -353,7 +366,6 @@ ul.social-links img {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.51px;
-  /* word-wrap: break-word; */
 }
 
 .languages .langTitle {
@@ -361,6 +373,7 @@ ul.social-links img {
   align-items: center;
   justify-content: space-between;
 }
+
 .languages .langTitle h1 {
   color: black;
   font-size: 20px;
@@ -377,10 +390,12 @@ ul.social-links img {
   padding: 8px;
   border-radius: 8px;
 }
+
 .languages .langTitle .icon img {
   width: 24px;
   height: 24px;
 }
+
 .langContainer {
   width: 100%;
   height: hug (248.15px);
@@ -389,6 +404,7 @@ ul.social-links img {
   padding: 12px;
   gap: 12px;
 }
+
 .langCard {
   background-color: #f7f7f9;
   width: 100%;
@@ -397,13 +413,6 @@ ul.social-links img {
   border-radius: 8px;
   align-items: center;
   gap: 16px;
-}
-.langCard p {
-  color: #253858;
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 20px;
-  word-wrap: break-word;
 }
 
 /* Styles for mobile screens with a minimum width of 375px */
@@ -414,7 +423,7 @@ ul.social-links img {
     padding: 4px 24px 4px 12px;
   }
 
-  .header a {
+  header a {
     width: hug(100px);
     height: hug(40px);
     top: 4px;
@@ -422,7 +431,7 @@ ul.social-links img {
     padding: 10px 12px 10px 12px;
   }
 
-  .header a h2 {
+  header a h2 {
     font-size: 18px;
     font-weight: 700;
     line-height: 20px;
@@ -449,8 +458,8 @@ ul.social-links img {
     padding: 6px 2.999884605407715px 6px 3.000115394592285px;
   }
 
-  .container {
-    background-image: url(./media/mobilebg1.png);
+  .containerBg {
+    background-image: url(../media/mobilebg1.png);
     background-size: contain;
     width: hug(375px);
     height: hug(604px);
