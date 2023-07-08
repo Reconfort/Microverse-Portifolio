@@ -97,7 +97,7 @@ header .burger {
   gap: 12px;
 }
 
-.aboutContent h1 {
+.aboutContent h3 {
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
@@ -116,7 +116,6 @@ header .burger {
 .aboutContent ul {
   list-style: none;
   display: flex;
-  flex-direction: column;
 }
 
 .aboutContent h2 {
@@ -195,7 +194,8 @@ ul.social-links img {
   height: hug (2, 788px);
   top: 718px;
   padding: 114px 24px 114px 24px;
-  display: flex;
+  display: grid;
+  grid-template-columns: auto;
   flex-direction: column;
   gap: 88px;
 }
@@ -294,6 +294,8 @@ ul.social-links img {
   justify-content: flex-start;
   align-items: center;
   display: inline-flex;
+  border: none;
+  background-color: transparent;
 }
 
 .link-button {
@@ -350,7 +352,8 @@ ul.social-links img {
 }
 
 .project-button {
-  width: 50%;
+  width: 50vw;
+  background-color: transparent;
   height: hug (48px);
   padding: 12px;
   border-radius: 8px;
@@ -374,7 +377,7 @@ ul.social-links img {
   justify-content: space-between;
 }
 
-.languages .langTitle h1 {
+.languages .langTitle h3 {
   color: black;
   font-size: 20px;
   font-weight: 500;
