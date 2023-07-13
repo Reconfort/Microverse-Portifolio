@@ -400,6 +400,7 @@ ul.social-links img {
   color: #253858;
   font-size: 15px;
   font-weight: 500;
+  align-items: center;
   line-height: 20px;
   word-wrap: break-word;
 }
