@@ -370,14 +370,17 @@ ul.social-links img {
   line-height: 24px;
   letter-spacing: 0.51px;
 }
+
 .language-container {
   display: flex;
   flex-direction: column;
 }
+
 .title {
   display: flex;
   justify-content: space-between;
 }
+
 .languages {
   display: flex;
   flex-direction: column;
@@ -388,25 +391,25 @@ ul.social-links img {
   word-wrap: break-word;
   gap: 12px;
 }
-.languages li {
+
+.languages .list {
   display: flex;
   gap: 16px;
   background-color: #f7f7f9;
-  display: flex;
   padding: 9px 12px 9.716px 12px;
   color: #253858;
   font-size: 15px;
-  font-family: Poppins;
   font-weight: 500;
   line-height: 20px;
   word-wrap: break-word;
 }
-.languages li img {
+
+.languages .list img {
   width: 48px;
   height: 48px;
   flex-shrink: 0;
   border-radius: 48px;
-  border: 1px solid var(#ffffff, #fff);
+  border: 1px solid var(#fff, #fff);
   background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 
