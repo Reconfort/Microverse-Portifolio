@@ -370,52 +370,44 @@ ul.social-links img {
   line-height: 24px;
   letter-spacing: 0.51px;
 }
-
-.languages .langTitle {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.languages .langTitle h3 {
-  color: black;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 24px;
-  word-wrap: break-word;
-}
-
-.languages .langTitle .icon {
-  width: hug (40px);
-  height: hug (40px);
-  top: 16px;
-  left: 261px;
-  padding: 8px;
-  border-radius: 8px;
-}
-
-.languages .langTitle .icon img {
-  width: 24px;
-  height: 24px;
-}
-
-.langContainer {
-  width: 100%;
-  height: hug (248.15px);
+.language-container {
   display: flex;
   flex-direction: column;
-  padding: 12px;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+.languages {
+  display: flex;
+  flex-direction: column;
+  color: #253858;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  word-wrap: break-word;
   gap: 12px;
 }
-
-.langCard {
-  background-color: #f7f7f9;
-  width: 100%;
+.languages li {
   display: flex;
-  padding: 9px 12px 9.715599060058594px 12px;
-  border-radius: 8px;
-  align-items: center;
   gap: 16px;
+  background-color: #f7f7f9;
+  display: flex;
+  padding: 9px 12px 9.716px 12px;
+  color: #253858;
+  font-size: 15px;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 20px;
+  word-wrap: break-word;
+}
+.languages li img {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 48px;
+  border: 1px solid var(#ffffff, #fff);
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 
 /* Styles for mobile screens with a minimum width of 375px */
